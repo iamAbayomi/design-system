@@ -12,26 +12,25 @@ type props ={
 
 // This component aims to determine the reusable component
 const Button: React.FC<props> = (props) => {
-    
-        return(
-            <div>
-                <ButtonStyle style={
-                        {
-                            width: `${props.width}`,
-                            height: `${props.height}`,
-                            color: `${props.color}`,
-                            backgroundColor: `${props.backgroundColor}`,
-                            margin: `${props.margin}`,
-                            border: `1px solid ${props.backgroundColor}`
-                            // border: `1px solid grey`
-                        }
-                }
-                onClick={props.onClick}
-                >
-                    {props.buttonText}
-                </ButtonStyle>
-            </div>
-        )
+    return(
+        <div>
+            <ButtonStyle style={
+                    {
+                        width: `${props.width}`,
+                        height: `${props.height}`,
+                        color: `${props.color}`,
+                        backgroundColor: `${props.backgroundColor}`,
+                        margin: `${props.margin}`,
+                        border: `1px solid ${props.backgroundColor}`
+                        // border: `1px solid grey`
+                    }
+            }
+            onClick={props.onClick}
+            >
+                {props.buttonText}
+            </ButtonStyle>
+        </div>
+    )
 }
 
 
