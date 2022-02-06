@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import { Dropdown } from 'react-bootstrap'
 
 type props = {
-    menuTitle: '',
-    menuItem: any,
+    menuTitle: string,
+    menuItem: string[],
     onClick? : any
     //string[]
 }
