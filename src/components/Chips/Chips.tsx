@@ -20,7 +20,7 @@ export default class Chips extends React.Component<MyProps>{
         if(this.props.chipsText){
             switch(this.props.chipsText.toLowerCase()){
                 case "active":
-                    this.setState({backgroundColor : 'green' })
+                    this.setState({backgroundColor : 'rgba(93, 248, 136, 1)' })
                     break;
                 case "block":
                     this.setState({  backgroundColor : 'red' })
