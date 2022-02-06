@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import PercentageOverviewCard from './components/PercentageOverviewCard/PercentageOverviewCard';
+import PercentageOverviewCard from './components/OverviewCard/OverviewCard';
 
 function App() {
   return (
