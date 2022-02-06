@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
-import '../pages/Overview.css'
+//import '../pages/Overview.css'
 import { buildStyles, CircularProgressbar } from 'react-circular-progressbar'
 import 'react-circular-progressbar/dist/styles.css'
 import styled from 'styled-components'
@@ -32,6 +32,7 @@ const PercentageOverviewCard: React.FC<props> = (props) => {
     )
 }
 
+export default PercentageOverviewCard
 
 const TransactionGroup = styled.div `
     display:flex;   
