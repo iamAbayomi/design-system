@@ -1,3 +1,7 @@
+body{
+    background: rgba(131, 127, 127, 0.219);
+}
+
 .App{
     margin: 60px;
 }
