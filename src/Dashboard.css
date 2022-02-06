@@ -1,0 +1,373 @@
+:root {
+    box-sizing: border-box;
+  }
+
+*,
+::before,
+::after {
+box-sizing: inherit;
+}
+
+body > div > p{
+    /* margin-top: revert !important; */
+    display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;
+}
+
+.default-p{
+    /* margin-top: revert !important; */
+    display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;
+}
+
+.header-bar{
+    border: solid;
+    border-width: 0px 2px 2px 0px;
+    border-color: rgba(240, 240, 240, 1);
+    height: 70px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 200;
+    /* justify-content: space-between; */
+}
+
+.header-tool{
+    display: flex;   
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0px 40px 0px 100px;
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+.profile-section{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.logo{
+    height: 40px;
+    margin: 15px 0px 0px 30px;
+}
+
+
+
+.menu-toggle{
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 20px 10px 20px 20px;
+}
+
+.side-menu{
+    position: fixed;
+    width: 240px;
+    height: 80vh;
+    overflow-y: auto;
+    background-color: white;
+    border: solid;
+    margin: 70px 0px 0px 0px;
+    border-width: 1px 2px 0px 0px;
+    border-color: rgba(240, 240, 240, 1);
+    z-index: 2;
+}
+
+.menu-items-content{
+    margin: 40px 10px 5px 0px;
+}
+
+.menu-item{
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(62, 61, 87);
+    display: flex;
+    margin: 20px 10px 10px 20px;
+    padding: 10px 10px 10px 20px;
+}
+
+.menu-item-options{
+    font-weight: normal;
+    text-decoration: none;
+    color: rgb(62, 61, 87);
+    display: flex;
+    margin: 10px 10px 10px 40px;
+    padding: 10px 10px 10px 20px;   
+}
+
+.show-sub-menu{
+    display: none;
+}
+
+.selected{
+    background-color: rgba(236, 238, 242, 0.85);
+    /* width: 100%; */
+}
+
+.menu-title{
+    margin: 10px 5px 10px 30px;
+}
+
+.main-menu{
+    background: #E5E5E5;
+}
+
+
+.search-bar{
+    max-width: 500px;
+    width: 100%;
+    height: 40px;
+    margin: 10px 10px 10px 10px;
+    background: white;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.068);
+    border-radius: 5px;
+  }
+  
+.search-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 0px 10px;
+    /* border: 1px solid; */
+}
+  
+.search-logo-and-highlight{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+  
+.search-logo{
+    width: 20px;
+    height: 18px;
+    margin: 2px 5px 0px 5px;  
+}
+  
+  
+.search-highlight{
+    width: 300px;
+    /* width: 100%; */
+    height: 22px;
+    margin: 0px 0px 0px 5px;
+    background: white;
+    border: 0px solid;
+    font-size: 16px;
+    border-color: rgba(0, 0, 0, 0.068);
+    color: #837975d8;
+}
+  
+.profile-image{
+    height: 40px;
+    border-radius: 36px;
+}
+
+.profile-section{
+    margin: 10px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+
+.username{
+    display: inline;
+    margin: 10px 10px 5px 10px;
+}
+
+.notifications-icon{
+    margin: 10px 30px 0px 50px;
+    height: 40px;
+}
+
+.content{
+    display: flex;
+}
+
+.main-section{
+    background-color:  rgba(248, 248, 248, 1);
+    width: 100%;
+    margin: 70px 0px 0px 240px;
+    padding-bottom: 100px;
+}
+
+
+.dashboard-contents{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.dropdown-field{
+    max-width: 300px;
+    width: 100%;
+    height: 58px;
+    margin: auto;
+    padding-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px ;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+}
+
+.dropdown-text{
+    margin: 20px 0px 0px 0px;
+    
+}
+
+.dropdown-icon{
+    width: 15px;
+    margin: 15px 15px 0px 0px;
+}
+
+.dropdown-menu{
+    width: 100%;
+    max-width: 300px;
+    overflow-y: scroll;
+    height: 200px;
+    /* border: 1px solid rgba(191, 183, 183, 0.74);
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: right;
+    background-color: white;
+    overflow-y: scroll; */
+}
+
+.bank-name {
+    margin: 0px;
+    padding: 5px;
+}
+
+
+.bank-name:hover{
+    background-color: #010066;
+    color: white;
+}
+
+.btn-secondary{
+    max-width: 300px;
+    width: 100%;
+    height: 58px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #8b8383  !important;
+    background-color: white !important;
+    border: 1px solid #BDBDBD !important;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 18px 20px 0px 30px !important;
+}
+.dropdown-toggle::after {
+    margin: 10px 0px;
+}
+
+.dropdown-show{
+    display: none;
+}
+
+.menu-line{
+    border: 1px solid rgba(191, 183, 183, 0.74);
+}
+
+.dropdown-menu-contents{
+    /* padding: 7px 10px 7px 10px; */
+}
+
+
+input:focus, textarea:focus, select:focus, button:focus{
+    outline: #BDBDBD;
+    border: 1px solid #BDBDBD;
+    box-shadow: 0 0 0px #BDBDBD;
+    
+  }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+/* opacity: 0.4; Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #719ECE;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:#719ECE;
+}
+
+.sellcards-forms{
+    margin-top: 90px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+.error-message{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    /* Swift gray */
+    color: red;
+}
+
+.success-message{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    /* Swift gray */
+    color: green;
+}
+
+/* Small Breakpoint */
+@media screen and (max-width: 576px){
+    .search-bar, .username, .notifications-icon{
+        display: none;
+    }
+
+    .header-tool{
+        display: block;
+        padding: 0px;
+    }
+    .profile-section{
+        float: right;
+        margin: 10px 30px 0px 30px;
+    }
+    .main-section{
+        /* max-width: 500px; */
+    }
+}
+
+
+/* For Tablets */
+@media screen and (max-width: 768px){
+    
+}
+/* For Laptops */
+@media screen and (max-width: 992px){
+    
+}
+/* For Large Devices */
+@media screen and (max-width: 1200px){
+    .side-menu{
+        display: none;
+    }
+    .main-section{
+        margin: 70px 0px 0px 0px;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    
+}
+
+
+.is-open{
+    display: block;
+}
