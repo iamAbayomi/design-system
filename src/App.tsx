@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <PercentageOverviewCard percentageText={'No of users'} percentage={10}/>
-      <Table tableColums={["data","data"]} tableData={[["daad", "eeq"]]} />
+      <Table tableColums={["Name","Role"]} tableData={[["John", "Admin"]]} />
     </div>
   );
 }
