@@ -7,3 +7,5 @@ export default {
 } as ComponentMeta <typeof Table>
 
 const Template: ComponentStory<typeof Table> = (args) => <Table {...args} />
+
+export const Normal = Template.bind({})
