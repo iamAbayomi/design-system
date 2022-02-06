@@ -19,7 +19,7 @@ const Table: React.FC<props> = (props) => {
     })
 
     return(
-        <div>
+        <div className="card-white">
             <ThemeProvider theme={getMuiTheme()}    >
                 <MUIDataTable 
                     columns={props.tableColums} 
