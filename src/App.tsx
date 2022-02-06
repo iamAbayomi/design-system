@@ -5,8 +5,7 @@ import PercentageOverviewCard from './components/OverviewCard/OverviewCard';
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
-      <PercentageOverviewCard percentageText={''} percentage={10}/>
+      <PercentageOverviewCard percentageText={'No of users'} percentage={10}/>
     </div>
   );
 }
