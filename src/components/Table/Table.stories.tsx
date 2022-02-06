@@ -9,3 +9,4 @@ export default {
 const Template: ComponentStory<typeof Table> = (args) => <Table {...args} />
 
 export const Normal = Template.bind({})
+Normal.args = {tableColums: ['Name', 'User'], tableData: [['John', 'Admin']]}
