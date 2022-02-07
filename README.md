@@ -60,7 +60,7 @@ I used
 ## Setup
 - download or clone the repository
 - run `npm install`
-- ...
+- then run `npm run storybook` to display the components
 
 ## Approach
 I developed the components and added the stories file to display the stories in storybook
@@ -69,12 +69,11 @@ I developed the components and added the stories file to display the stories in 
 `Design system` is still in progress. `Version 2` will be out soon.
 
 ## Credits
-List of contriubutors:
-- [Oladini Abayomi](https://oladiniabayomi.com)
-
 Resources: 
 
 - [Storybook's Design system for developers](https://storybook.js.org/tutorials/design-systems-for-developers/)
+
+- [Shopify Polaris Foundation](https://polaris.shopify.com/components/lists-and-tables/data-table#navigation)
 ## License
 
 MIT license @ [Oladini Abayomi](https://oladiniabayomi.com)
