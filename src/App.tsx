@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import AvatarandName from './components/AvatarAndName/AvatarAndName';
 import Button from './components/Button/Button';
 import Chips from './components/Chips/Chips';
 import DropDown from './components/Dropdown/DropDown';
@@ -16,6 +17,7 @@ function App() {
       <Chips chipsText={'successful'} />
       <DropDown menuTitle={"work"} menuItem={['place', 'house']} />
       <Modal children={<p>Hello</p>} />
+      <AvatarandName name={'James Brown'} imageSrc={'https://avatars2.githubusercontent.com/u/132554'} />
     </div>
   );
 }
