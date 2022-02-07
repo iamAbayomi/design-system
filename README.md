@@ -35,7 +35,7 @@ This is a design system built in react and it contains these components
 
 ## Screenshots
 
-`![Image](https://raw.githubusercontent.com/iamAbayomi/design-system/master/public/screenshot.png)`
+![Image](https://raw.githubusercontent.com/iamAbayomi/design-system/master/public/screenshot.png)
 
 
 
