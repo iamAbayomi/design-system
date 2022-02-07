@@ -7,6 +7,11 @@ export default {
     component: Avatar
 } as ComponentMeta <typeof Avatar >
 
+// This is the avatar documentation
+
+/**
+ *  This is the avatar documentation
+ */
 
 const Template: ComponentStory<typeof Avatar> = (args) => <Avatar {...args} />
 
