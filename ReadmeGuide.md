@@ -48,26 +48,16 @@ List of contriubutors:
 MIT license @ [author](author.com)
 
 
+# Good Commit Message
+feat: The new feature you're adding to a particular application
 
-# Design system
-This is a design built in react. 
+fix: A bug fix
+style: Feature and updates related to styling
 
+refactor: Refactoring a specific section of the codebase
 
----
+test: Everything related to testing
 
-The design system contains these components
+docs: Everything related to documentation
 
-```
-1. Avatar
-2. AvatarAndName
-3. Badge
-4. Button
-5. Card
-6. Dropdown
-7. InputField
-8. Modal
-9. OverviewCard
-10. Table
-11. Typography 
-
-```
+chore: Regular code maintenance.[ You can also use emojis to represent commit types]
