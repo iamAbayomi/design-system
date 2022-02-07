@@ -1,16 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-
+export * from './components/Avatar/Avatar'
+export * from './components/AvatarAndName/AvatarAndName'
+export * from './components/Badge/Badge'
+export * from './components/Button/Button'
+export * from './components/Card/Card'
+export * from './components/Dropdown/DropDown'
+export * from './components/InputField/InputField'
+export * from './components/Modal/Modal'
+export * from './components/OverviewCard/OverviewCard'
+export * from './components/Table/Table'
+export * from './components/Typograpghy/Typography'
