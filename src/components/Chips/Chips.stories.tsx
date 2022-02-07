@@ -1,10 +1,10 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import Chips from "./Chips";
 
-export default {
-    title: 'Chips',
-    component: Chips
-} as ComponentMeta <typeof Chips>
+// export default {
+//     title: 'Chips',
+//     component: Chips
+// } as ComponentMeta <typeof Chips>
 
 
 const Template: ComponentStory<typeof Chips> = (args) => <Chips {...args} />
