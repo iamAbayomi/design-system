@@ -1,3 +1,16 @@
+# v0.1.2 (Tue Feb 08 2022)
+
+#### ⚠️ Pushed to `master`
+
+- Merge branch 'master' of https://github.com/iamAbayomi/design-system ([@iamAbayomi](https://github.com/iamAbayomi))
+- feat: added feature to export buttons ([@iamAbayomi](https://github.com/iamAbayomi))
+
+#### Authors: 1
+
+- [@iamAbayomi](https://github.com/iamAbayomi)
+
+---
+
 # v0.1.1 (Tue Feb 08 2022)
 
 #### ⚠️ Pushed to `master`
