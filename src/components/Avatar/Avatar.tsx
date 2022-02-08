@@ -1,6 +1,8 @@
 import styled from "styled-components"
+import React from "react"
 
-type props = {
+
+export interface props {
     imageSrc: string
 }
 
