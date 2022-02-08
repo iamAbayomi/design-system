@@ -2,7 +2,7 @@
   "author": "iamAbayomi",
   "name": "sg-design-system",
   "description": "A design system containing react components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "repository": "https://github.com/iamAbayomi/design-system",
