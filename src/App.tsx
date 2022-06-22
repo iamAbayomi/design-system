@@ -7,6 +7,7 @@ import DropDown from './components/Dropdown/DropDown';
 import Modal from './components/Modal/Modal';
 import PercentageOverviewCard from './components/OverviewCard/OverviewCard';
 import Table from './components/Table/Table';
+import RadioButton from './components/RadioButton'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <DropDown menuTitle={"work"} menuItem={['place', 'house']} />
       <Modal children={<p>Hello</p>} />
       <AvatarandName name={'James Brown'} imageSrc={'https://avatars2.githubusercontent.com/u/132554'} />
+  
     </div>
   );
 }
